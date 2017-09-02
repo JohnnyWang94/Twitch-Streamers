@@ -3,12 +3,7 @@ var urlChannel = "https://wind-bow.glitch.me/twitch-api/channels/";
 var channelList = ["a_seagull","ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "habathcx", "RobotCaleb", "noobs2ninjas"];
 
 $(document).ready(function(){
-    // var testURl = urlStream + "a_seagull";
-    // $.getJSON(testURl, function(json,status){
-    //     if(json.stream == null) {
-    //         console.log("null");
-    //     }
-    // });
+
     refreshPages("all");
     $(".nav-tabs a").click(function(){
         $(this).tab('show');
@@ -16,10 +11,6 @@ $(document).ready(function(){
         console.log($(this).html() + "  this.html");
     });
 });
-
-// $.getJSON("json/twitchtv.json",function(json){
-
-// });
 
 
 function refreshPages(status){
@@ -32,15 +23,6 @@ function refreshPages(status){
     var channelUrl;
     var channelDetails;
 
-    // var cardHtml = '<div class="streamer-card"><div class="card-title"><img src="' + channelLogo + '" alt="channel-logo" class="img-circle"><a href="' + channelUrl + '"><h4>' + channelName + '</h4></a></div><div class="card-details"><p>Greg working on Electron-Vue boilerplate w/ Akira #programming #vuejs #electron</p></div></div>';
-
-    // switch(status) {
-    //     case "all":
-    //     case "onlone":
-    //     case "offline":
-    //     default :
-    //         break;
-    // }
     $(".main-view").empty();
     channelList.forEach(function(element){
         jsonUrl = urlStream + element;
@@ -73,8 +55,6 @@ function refreshPages(status){
                     $(".main-view").append(html);
                 }
             }
-            // htmlAll += html;
-            // $(".main-view").append(htmlAll);
         });
     });
 
