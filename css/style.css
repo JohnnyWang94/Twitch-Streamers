@@ -1,0 +1,67 @@
+.well {
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.well .header {
+    background-color: #4B367C;    
+    height: 120px;
+}
+
+#floater {
+    float: left;
+    height: 50%;
+    margin-bottom: -60px;
+}
+
+h1 {
+    text-align: center;
+    color: #d7cceb;
+    text-shadow: 1px 1px 1px #ffffff;
+    margin-top: 0;
+    line-height: 120px;
+}
+
+.streamers-tag {
+    width: 33%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border-left: 0;    
+}
+
+.main-view {
+    background-color: #EEEEEE;
+}
+
+.streamer-card {
+    background-color: white;
+    margin: 10px 5px 10px 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card-title img, .card-title h4 {
+    display: inline-block;
+}
+
+.card-title img {
+    height: 50px;
+    margin: 10px;
+}
+
+.card-details {
+    font-size: 16px;
+    font-style: italic;
+}
+
+p {
+    margin: 0px 10px 0px 10px;
+    padding-bottom: 5px;
+}
+
+.offline {
+    background-color: #E3E3E3;
+}

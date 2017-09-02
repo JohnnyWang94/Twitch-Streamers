@@ -1,0 +1,37 @@
+//https://wind-bow.glitch.me/twitch-api/channels/a_seagull
+
+{
+    "mature": false,
+    "status": "season 6 hype (8 new sub emotes!) sick btw",
+    "broadcaster_language": "en",
+    "display_name": "A_Seagull",
+    "game": "Overwatch",
+    "language": "en",
+    "_id": 19070311,
+    "name": "a_seagull",
+    "created_at": "2010-12-28T13:01:21Z",
+    "updated_at": "2017-09-01T13:34:27Z",
+    "partner": true,
+    "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/a_seagull-profile_image-4d2d235688c7dc66-300x300.png",
+    "video_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/a_seagull-channel_offline_image-5da6310bc309caf7-1920x1080.png",
+    "profile_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/a_seagull-profile_banner-a14ef03509000445-480.png",
+    "profile_banner_background_color": null,
+    "url": "https://www.twitch.tv/a_seagull",
+    "views": 16720084,
+    "followers": 663575,
+    "_links": {
+        "self": "https://api.twitch.tv/kraken/channels/a_seagull",
+        "follows": "https://api.twitch.tv/kraken/channels/a_seagull/follows",
+        "commercial": "https://api.twitch.tv/kraken/channels/a_seagull/commercial",
+        "stream_key": "https://api.twitch.tv/kraken/channels/a_seagull/stream_key",
+        "chat": "https://api.twitch.tv/kraken/chat/a_seagull",
+        "features": "https://api.twitch.tv/kraken/channels/a_seagull/features",
+        "subscriptions": "https://api.twitch.tv/kraken/channels/a_seagull/subscriptions",
+        "editors": "https://api.twitch.tv/kraken/channels/a_seagull/editors",
+        "teams": "https://api.twitch.tv/kraken/channels/a_seagull/teams",
+        "videos": "https://api.twitch.tv/kraken/channels/a_seagull/videos"
+    },
+    "delay": null,
+    "banner": null,
+    "background": null
+}
